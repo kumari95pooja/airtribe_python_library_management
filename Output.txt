@@ -1,0 +1,63 @@
+PS C:\Users\Public\Airtribe\PYTHON\Assignment\library_manager> python .\main.py
+
+--- Creating Library Items ---
+Book: Python 101 by A. Rao (ID: 1)
+Magazine: Python Today, Issue: 45
+DVD: Python Tutorial, Duration: 120 minutes
+
+--- Invalid Object Arguments ---
+Invalid argument: Title must be a non-empty string.
+Invalid argument: Item ID must be a positive integer.
+Invalid argument: Author must be a non-empty string.
+Invalid argument: Issue number must be a positive integer.
+Invalid argument: Duration must be a positive integer.
+Invalid argument: Member name must be a non-empty string.
+Invalid argument: Member ID must be a positive integer.
+Invalid argument: Maximum items must be a positive integer.
+
+--- Creating Members ---
+Members created successfully.
+
+--- Borrowing Items ---
+Alice borrowed the book successfully.
+Error: This item is already borrowed.
+Error: Please provide a valid library item.
+
+--- Borrowing Limit ---
+Bob borrowed the magazine successfully.
+Error: You have reached your borrowing limit.
+
+--- Return Item Validation ---
+Error: You have not borrowed this item.
+Error: Please provide a valid library item.
+
+--- Late Fees ---
+Book: Python 101 by A. Rao (ID: 1)
+Late fee for 3 days: Rs 6
+Magazine: Python Today, Issue: 45
+Late fee for 3 days: Rs 3
+DVD: Python Tutorial, Duration: 120 minutes
+Late fee for 3 days: Rs 15
+
+--- Invalid Late Fee Arguments ---
+Error: Days late must be a non-negative integer.
+Error: Days late must be a non-negative integer.
+Error: Days late must be a non-negative integer.
+
+--- Returning Items ---
+Alice returned the book. Fee: Rs 6
+Bob returned the magazine. Fee: Rs 3
+
+--- Item Availability ---
+Cannot access private availability directly.
+Book available: True
+Magazine available: True
+DVD available: True
+
+--- Borrowed Items ---
+Alice borrowed items: []
+Bob borrowed items: []
+
+--- Total Library Items ---
+Total library items: 3
+PS C:\Users\Public\Airtribe\PYTHON\Assignment\library_manager> 
